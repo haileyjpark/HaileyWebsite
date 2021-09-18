@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    position: relative;
+    top: 30px;
+    left: 700px;
+    width: 30%;
+    height: 30%;
+    object-fit: scale-down;
+    object-position: right center;
+}
+
+.logotext{
+    height: 100vh;
+    left: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: default;
+    position: absolute;
+}
+
+
+.text{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: default;
+}
+
+
+
+.logotext h3{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 6em;
+    text-align: justify;
+    color: #EDD8A3;
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+
+.profile h4{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    color: #EDD8A3;
+    z-index: 3;
+    mix-blend-mode: overlay;
+}
+
+.li {
+    line-height:50%
+}
+
+
+nav {
+  margin: 0 auto;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+
+}
+
+nav ul li a {
+  padding: 18px;
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 1);
+}
+
+
+.icons {
+    font-size: 0;
+}
+
+.icon {
+    display: inline-block;
+    background-size: cover;
+    background-position: bottom;
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    background-repeat: no-repeat;
+}
+
+
+#insta {
+    background-image: url(./instaicon.png);
+}
+
+#github {
+    background-image: url(./githubicon2.png);
+}
+
+#velog {
+    background-image: url(./velogicon.png);
+}
