@@ -1,8 +1,11 @@
 @charset "utf-8";
 
 
-*{
-    box-sizing: border-box;
+
+.frame {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
 }
 
 body{
@@ -10,11 +13,54 @@ body{
     padding: 0;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 18px;
+  display: inline-block;
+  align-self: center;
+  margin: 0;
+  margin-left: 15px;
+
+}
+
+nav ul li a {
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #D6CEC5;
+  transition: 0.3s;
+}
+
+
+.site-name {
+  margin: 0;
+  padding: 18px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #D29F62;
+
+}
+
 
 img{
     position: relative;
     top: 30px;
-    left: 700px;
+    left: 500px;
     width: 30%;
     height: 30%;
     object-fit: scale-down;
@@ -23,7 +69,6 @@ img{
 
 .logotext{
     height: 100vh;
-    left: 8vh;
     display: flex;
     align-items: center;
     justify-content: default;
@@ -44,7 +89,7 @@ img{
 .logotext h3{
     @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
     font-family: 'Jeju Gothic', sans-serif;
-    font-size: 6em;
+    font-size: 5em;
     text-align: justify;
     color: #EDD8A3;
     z-index: 1;
@@ -57,57 +102,101 @@ img{
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 2em;
     text-align: justify;
-    color: #EDD8A3;
+    color: #878787;
     z-index: 3;
     mix-blend-mode: overlay;
 }
 
-.li {
-    line-height:50%
+.profile h5{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 25px;
+    color: black;
+    z-index: 1;
+    mix-blend-mode: overlay;
+
 }
 
+.profile h6{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 18px;
+    color: black;
+    z-index: 1;
+    mix-blend-mode: overlay;
 
-nav {
-  margin: 0 auto;
 }
 
-nav ul {
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
+#pf-content1 {
+        background-color: #bcbcbc;
+        width: 30%;
+        height: 300px;
+        padding: 20px;
+        float: left;
+        border: none;
+        border-radius: 30px;
+        margin-right: 10px;
+      }
+#pf-content2 {
+        background-color: #bcbcbc;
+        width: 30%;
+        height: 300px;
+        padding: 20px;
+        float: left;
+        border: none;
+        border-radius: 30px;
+        margin-right: 10px;
+      }
+#pf-content3 {
+        background-color: #bcbcbc;
+        width: 30%;
+        height: 300px;
+        padding: 20px;
+        float: left;
+        border: none;
+        border-radius: 30px;
+      }
+
+
+.favorite {
+
 
 }
 
-nav ul li a {
-  padding: 18px;
-  text-transform:uppercase;
-  color: rgba(0, 0, 0, 1);
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-}
-
-nav ul li a:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.3);
-  color: rgba(0, 0, 0, 1);
-}
 
 
-.icons {
-    font-size: 0;
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
 }
+
+
 
 .icon {
-    display: inline-block;
-    background-size: cover;
-    background-position: bottom;
-    width: 60px;
-    height: 60px;
-    margin: 4px;
-    background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  background-repeat: no-repeat;
 }
+
 
 
 #insta {
