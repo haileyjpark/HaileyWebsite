@@ -8,6 +8,12 @@
   flex-direction: column;
 }
 
+@media (max-width: 767px){
+  .frame {
+  margin: 10px 20px;
+}
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -46,6 +52,43 @@ nav ul li a:hover {
   transition: 0.3s;
 }
 
+@media (max-width: 767px){
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: table-cell;
+    align-self: center;
+    margin: 0;
+    padding: 9px;
+
+
+  }
+
+  nav ul li a {
+    text-transform:uppercase;
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+  }
+
+}
+
+
+
+
+
+
 
 .site-name {
   margin: 0;
@@ -57,6 +100,21 @@ nav ul li a:hover {
 }
 
 
+@media (max-width: 767px) {
+  .site-name {
+    display: block;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #D29F62;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+}
+
+}
+
 .img img{
     position: relative;
     top: 30px;
@@ -67,6 +125,22 @@ nav ul li a:hover {
     object-position: right center;
 }
 
+@media (max-width: 767px) {
+  .img img {
+    position: relative;
+    top: 170px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin-left: 0;
+  }
+}
+
+
 .logotext{
     height: 70vh;
     display: flex;
@@ -74,6 +148,19 @@ nav ul li a:hover {
     align-items: center;
     justify-content: default;
     position: absolute;
+}
+
+@media (max-width: 767px) {
+  .logotext {
+    height: 25vh;
+        display: block;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 11px;
+  }
 }
 
 
@@ -95,6 +182,16 @@ nav ul li a:hover {
     mix-blend-mode: overlay;
 }
 
+@media (max-width: 767px) {
+  .logotext h3 {
+    font-family: sans-serif;
+    color: #EDD8A3;
+    z-index: 1;
+    mix-blend-mode: overlay;
+    margin: 0;
+  }
+}
+
 .logotext h5{
     font-family: sans-serif;
     font-size: 1em;
@@ -108,7 +205,7 @@ nav ul li a:hover {
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 2em;
     text-align: justify;
-    color: #878787;
+    color: black;
     z-index: 3;
     mix-blend-mode: overlay;
 }
@@ -117,9 +214,8 @@ nav ul li a:hover {
     @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 25px;
-    color: black;
+    color: #CCB182;
     z-index: 1;
-    mix-blend-mode: overlay;
     margin: 0;
 
 }
@@ -128,9 +224,9 @@ nav ul li a:hover {
     @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 18px;
-    color: black;
+    color: #898989;
     z-index: 1;
-    mix-blend-mode: overlay;
+
     margin: 0;
 
 }
@@ -143,8 +239,18 @@ nav ul li a:hover {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .profile {
+    display: block;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
 #pf-content1 {
-        background-color: #bcbcbc;
+        background-color: #FCF9F2;
         width: 30%;
         height: 300px;
         padding: 20px;
@@ -154,7 +260,7 @@ nav ul li a:hover {
         margin-right: 10px;
       }
 #pf-content2 {
-        background-color: #bcbcbc;
+        background-color: #FCF9F2;
         width: 30%;
         height: 300px;
         padding: 20px;
@@ -164,7 +270,7 @@ nav ul li a:hover {
         margin-right: 10px;
       }
 #pf-content3 {
-        background-color: #bcbcbc;
+        background-color: #FCF9F2;
         width: 30%;
         height: 300px;
         padding: 20px;
@@ -173,7 +279,47 @@ nav ul li a:hover {
         border-radius: 30px;
       }
 
+@media (max-width: 767px) {
+  #pf-content1 {
+    background-color: #FCF9F2;
+    width: 90%;
+    display: block;
+    height: 200px;
+    padding: 20px;
+    float: left;
+    border: none;
+    border-radius: 30px;
+    margin-right: 0;
+    margin-bottom: 10px;
+        }
+  #pf-content2 {
+    background-color: #FCF9F2;
+    width: 90%;
+    display: block;
+    height: 200px;
+    padding: 20px;
+    float: left;
+    border: none;
+    border-radius: 30px;
+    margin-right: 0;
+    margin-bottom: 10px;
 
+        }
+  #pf-content3 {
+    background-color: #FCF9F2;
+    width: 90%;
+    display: block;
+    height: 200px;
+    padding: 20px;
+    float: left;
+    border: none;
+    border-radius: 30px;
+    margin-right: 0;
+    margin-bottom: 10px;
+
+        }
+
+}
 
 
 .favorite {
@@ -243,7 +389,7 @@ display:flex;
       display: block;
       row-gap: 3px;
 }
-
+}
 
 
 .footer h3 {
