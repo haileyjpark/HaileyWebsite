@@ -303,6 +303,26 @@ nav ul li a:hover {
     margin-bottom: 50px;
     text-align: center;
   }
+
+  .profile h4{
+      font-family: Oswald, sans-serif;
+      font-size: 18px;
+      color: #801919;
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+  }
+
+
+  .profile h6{
+      @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+      font-family: Oswald, sans-serif;
+      font-size: 14px;
+      color: #898989;
+      z-index: 1;
+      margin: 0;
+
+  }
 }
 
 #pf-content1 {
@@ -482,7 +502,7 @@ display:flex;
   }
 
   .favorite {
-      width: 80%;
+      width: 90%;
       margin: auto;
       overflow: hidden;
       grid-gap: 3px 3px;
@@ -558,7 +578,7 @@ display:flex;
       background-position: center;
       width: 30px;
       height: 30px;
-      margin: 2px;
+      margin: 4px;
       background-repeat: no-repeat;
     }
 
