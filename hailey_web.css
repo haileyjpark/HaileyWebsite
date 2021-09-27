@@ -167,7 +167,6 @@ nav ul li a:hover {
     font-family: Oswald;
     color: #801919;
     z-index: 1;
-    mix-blend-mode: overlay;
     margin: 0;
   }
 }
@@ -190,7 +189,6 @@ nav ul li a:hover {
       font-size: 1em;
       color: #878787;
       z-index: 1;
-      mix-blend-mode: overlay;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -322,7 +320,7 @@ nav ul li a:hover {
 
 @media (max-width: 767px) {
   #pf-content1 {
-    background-color: #FCF9F2;
+    background-color: #F9F8F8;
     width: 90%;
     display: block;
     height: 200px;
@@ -334,7 +332,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
         }
   #pf-content2 {
-    background-color: #FCF9F2;
+    background-color: #F9F8F8;
     width: 90%;
     display: block;
     height: 200px;
@@ -347,7 +345,7 @@ nav ul li a:hover {
 
         }
   #pf-content3 {
-    background-color: #FCF9F2;
+    background-color: #F9F8F8;
     width: 90%;
     display: block;
     height: 200px;
