@@ -31,13 +31,13 @@ nav ul {
 }
 
 nav ul li {
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+  @import url(//fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);
   padding: 18px;
   display: inline-block;
   align-self: center;
   margin: 0;
   margin-left: 15px;
-  font-family: Oswald; san-serif;
+  font-family: Oswald, san-serif;
 
 }
 
@@ -62,11 +62,11 @@ nav ul li a:hover {
   }
 
   nav ul {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+    @import url(//fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
   }
 
   nav ul li {
@@ -90,7 +90,7 @@ nav ul li a:hover {
 
 
 .site-name {
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+  @import url(//fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);
   margin: 0;
   padding: 18px;
   font-family: Oswald;
