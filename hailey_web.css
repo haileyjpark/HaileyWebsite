@@ -278,6 +278,24 @@ nav ul li a:hover {
 }
 
 @media (max-width: 767px) {
+
+
+  .profile-title h5{
+      font-family: Oswald, sans-serif;
+      font-size: 25px;
+      color: #801919;
+      z-index: 1;
+      margin: 0;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+
+  }
+
   .profile {
     display: block;
     flex-direction: column;
@@ -447,6 +465,30 @@ display:flex;
 }
 
 
+@media (max-width: 767px) {
+  .favorite-title h5{
+      font-family: Oswald, sans-serif;
+      font-size: 25px;
+      color: #801919;
+      z-index: 1;
+      margin: 0;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+
+  }
+
+  .favorite {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      grid-gap: 3px 3px;
+  }
+}
+
 .footer h3 {
     margin: 0;
     padding: 18px;
@@ -498,4 +540,17 @@ display:flex;
 
 #velog {
     background-image: url(./velogicon.png);
+}
+
+
+@media (max-width: 767px) {
+  .footer h3 {
+      margin: 0;
+      padding: 18px;
+      font-family: Oswald, sans-serif;
+      font-size: 25px;
+      color: #801919;
+
+    }
+
 }
