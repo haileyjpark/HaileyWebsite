@@ -34,7 +34,6 @@ nav ul {
 }
 
 nav ul li {
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
   padding: 18px;
   display: inline-block;
   align-self: center;
@@ -65,7 +64,6 @@ nav ul li a:hover {
   }
 
   nav ul {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     text-align: center;
     margin: 0;
     padding: 0;
@@ -93,7 +91,6 @@ nav ul li a:hover {
 
 
 .site-name {
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
   margin: 0;
   padding: 18px;
   font-family: Oswald;
@@ -105,7 +102,6 @@ nav ul li a:hover {
 
 @media (max-width: 767px) {
   .site-name {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     display: block;
     margin: 0;
     padding: 20px;
@@ -120,12 +116,15 @@ nav ul li a:hover {
 }
 
 
+.home {
+  margin-top: 40px;
+}
+
 .logotext {
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     height: 70vh;
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
+    margin-left: 10%;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -134,7 +133,6 @@ nav ul li a:hover {
 
 @media (max-width: 767px) {
   .logotext {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     height: 25vh;
         display: block;
         align-items: center;
@@ -159,9 +157,8 @@ nav ul li a:hover {
 
 
 .logotext-2 h3{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     font-family: Oswald;
-    font-size: 4em;
+    font-size: 3.5em;
     color: #801919;
     z-index: 1;
     mix-blend-mode: overlay;
@@ -174,8 +171,6 @@ nav ul li a:hover {
 
 @media (max-width: 767px) {
   .logotext-2 h3 {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-    font-family: Oswald;
     color: #801919;
     z-index: 1;
     margin: 0;
@@ -183,7 +178,6 @@ nav ul li a:hover {
 }
 
 .logotext-1 h5{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     font-family: Oswald;
     font-size: 30px;
     color: #878787;
@@ -197,7 +191,6 @@ nav ul li a:hover {
 
 @media (max-width: 767px) {
   .logotext-1 h5{
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
       font-family: Oswald;
       font-size: 1em;
       color: #878787;
@@ -222,8 +215,8 @@ nav ul li a:hover {
     position: relative;
     top: 30px;
     margin-left: 60%;
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 25%;
     object-fit: scale-down;
     object-position: right center;
 }
@@ -245,7 +238,6 @@ nav ul li a:hover {
 
 
 .profile-title h5{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     font-family: Oswald, sans-serif;
     font-size: 50px;
     color: #801919;
@@ -264,7 +256,6 @@ nav ul li a:hover {
 
 
 .profile h4{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     font-family: Oswald, sans-serif;
     font-size: 30px;
     color: #801919;
@@ -275,7 +266,6 @@ nav ul li a:hover {
 
 
 .profile h6{
-    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
     font-family: Oswald, sans-serif;
     font-size: 18px;
     color: #898989;
@@ -296,7 +286,6 @@ nav ul li a:hover {
 
 
   .profile-title h5{
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
       font-family: Oswald, sans-serif;
       font-size: 25px;
       color: #801919;
@@ -321,7 +310,6 @@ nav ul li a:hover {
   }
 
   .profile h4{
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
       font-family: Oswald, sans-serif;
       font-size: 18px;
       color: #801919;
@@ -332,7 +320,6 @@ nav ul li a:hover {
 
 
   .profile h6{
-      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
       font-family: Oswald, sans-serif;
       font-size: 14px;
       color: #898989;
@@ -418,7 +405,6 @@ nav ul li a:hover {
 
 
 .favorite-title h5{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
     font-family: Oswald, sans-serif;
     font-size: 50px;
     color: #801919;
@@ -457,7 +443,6 @@ position:relative;
 
 
 .text-1{
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 position: absolute;
 top: 0;
 bottom: 0;
