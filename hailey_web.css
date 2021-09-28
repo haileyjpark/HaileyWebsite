@@ -20,6 +20,21 @@
 body{
     margin: 0;
     padding: 0;
+    padding-top: 75px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  background-color: white;
+  opacity: 0.8;
+  backdrop-filter: blur(30px);
+  z-index: 10;
+
+
 }
 
 nav {
@@ -34,7 +49,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 18px;
+  padding: 20px;
   display: inline-block;
   align-self: center;
   margin: 0;
@@ -219,6 +234,7 @@ nav ul li a:hover {
     height: 25%;
     object-fit: scale-down;
     object-position: right center;
+    z-index: 2;
 }
 
 @media (max-width: 767px) {
@@ -434,6 +450,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    z-index: 2;
 
 }
 
